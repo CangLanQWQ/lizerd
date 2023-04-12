@@ -1,0 +1,20 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell]
+
+[HKEY_CLASSES_ROOT\*\shell\LizerdEdit]
+
+[HKEY_CLASSES_ROOT\*\shell\LizerdEdit\command]
+@="C:\\windows\\system32\\notepad.exe \"%1\""
+
+[HKEY_CLASSES_ROOT\*\shell]
+
+[HKEY_CLASSES_ROOT\*\shell\LizerdRun]
+"icon"="C:\\Program Files (x86)\\Lizerd\\Lizerd1.6.4.exe"
+
+[HKEY_CLASSES_ROOT\*\shell\LizerdRun\command]
+@="C:\\Program Files (x86)\\Lizerd\\Lizerd1.6.4.exe \"%1\""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\NewLizerdERING\command]
+@="C:\\Program Files (x86)\\Lizerd\\lib\\new\\NewLiEngineering.exe"
+
